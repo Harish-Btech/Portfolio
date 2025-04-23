@@ -15,7 +15,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="w-full md:w-1/2 space-y-6">
               <h2 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white">
-                Hi, I'm <span className="text-blue-600 dark:text-blue-400">Harish Annadurai</span>
+                Hi, I'm <span className="text-blue-600 dark:text-blue-400">Harish&nbsp;Annadurai</span>
               </h2>
               <h2 className="text-2xl md:text-3xl font-semibold text-gray-700 dark:text-gray-300">
                 Data Engineer | Power Platform Expert | Python Enthusiast
