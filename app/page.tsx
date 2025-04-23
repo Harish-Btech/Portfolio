@@ -14,9 +14,9 @@ export default function Home() {
         <div className="container mx-auto px-4 z-10">
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="w-full md:w-1/2 space-y-6">
-              <h1 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white">
+              <h2 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white">
                 Hi, I'm <span className="text-blue-600 dark:text-blue-400">Harish Annadurai</span>
-              </h1>
+              </h2>
               <h2 className="text-2xl md:text-3xl font-semibold text-gray-700 dark:text-gray-300">
                 Data Engineer | Power Platform Expert | Python Enthusiast
               </h2>
@@ -39,7 +39,7 @@ export default function Home() {
             <div className="w-full md:w-1/2 flex justify-center">
               <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white dark:border-gray-800 shadow-xl">
                 <Image
-                  src="/profile.png?height=320&width=320"
+                  src="/placeholder.png?height=320&width=320"
                   alt="Harish"
                   fill
                   className="object-cover"
