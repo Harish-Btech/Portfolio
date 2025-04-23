@@ -15,7 +15,7 @@ export default function Home() {
           <div className="flex flex-col md:flex-row items-center justify-between gap-8">
             <div className="w-full md:w-1/2 space-y-6">
               <h1 className="text-4xl md:text-6xl font-bold text-gray-900 dark:text-white">
-                Hi, I'm <span className="text-blue-600 dark:text-blue-400">Harish</span>
+                Hi, I'm <span className="text-blue-600 dark:text-blue-400">Harish Annadurai</span>
               </h1>
               <h2 className="text-2xl md:text-3xl font-semibold text-gray-700 dark:text-gray-300">
                 Data Engineer | Power Platform Expert | Python Enthusiast
@@ -39,7 +39,7 @@ export default function Home() {
             <div className="w-full md:w-1/2 flex justify-center">
               <div className="relative w-64 h-64 md:w-80 md:h-80 rounded-full overflow-hidden border-4 border-white dark:border-gray-800 shadow-xl">
                 <Image
-                  src="/placeholder.svg?height=320&width=320"
+                  src="/profile.png?height=320&width=320"
                   alt="Harish"
                   fill
                   className="object-cover"
@@ -285,7 +285,7 @@ export default function Home() {
                         <span>LinkedIn</span>
                       </a>
                       <a
-                        href="https://www.instagram.com/its_harish_offcl/"
+                        href="https://www.instagram.com/_harish_annadurai_/"
                         target="_blank"
                         rel="noopener noreferrer"
                         className="flex items-center gap-2 text-pink-600 hover:text-pink-800 dark:text-pink-400 dark:hover:text-pink-300"
@@ -331,7 +331,7 @@ export default function Home() {
         <div className="container mx-auto px-4">
           <div className="flex flex-col md:flex-row justify-between items-center">
             <div className="mb-4 md:mb-0">
-              <p>&copy; {new Date().getFullYear()} Harish. All rights reserved.</p>
+              <p>&copy; {new Date().getFullYear()} Harish Annadurai. All rights reserved.</p>
             </div>
             <div className="flex space-x-4">
               <a
